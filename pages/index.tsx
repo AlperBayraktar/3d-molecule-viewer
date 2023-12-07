@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
         <>
-            <Head>
+            {/* <Head>
                 <title>3D Molekül Görüntüleyici</title>
                 <meta
                     name="description"
@@ -20,14 +20,15 @@ const Home = () => {
                     content="width=device-width, initial-scale=1"
                 />
                 <link rel="icon" href="/favicon.ico" />
-            </Head>
+            </Head> */}
             {/* <Script
                 src="/chemdoodle/ChemDoodleWeb.js"
                 onReady={() => {
                     setChemDoodle_(ChemDoodle);
                 }}
             /> */}
-            <MainPage ChemDoodle_={ChemDoodle_} />
+            {/* <MainPage ChemDoodle_={ChemDoodle_} /> */}
+            Hello world!
         </>
     );
 };
