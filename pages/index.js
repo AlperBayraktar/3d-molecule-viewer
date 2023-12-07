@@ -21,12 +21,12 @@ const Home = () => {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Script
+            {/* <Script
                 src="/chemdoodle/ChemDoodleWeb.js"
                 onReady={() => {
                     setChemDoodle_(ChemDoodle);
                 }}
-            />
+            /> */}
             <MainPage ChemDoodle_={ChemDoodle_} />
         </>
     );
