@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import Script from "next/script";
-import MainPage from "@/components";
+// import MainPage from "@/components/dfhdjhfj";
 
 const Home = () => {
     const [ChemDoodle_, setChemDoodle_] = useState(undefined);
